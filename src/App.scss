@@ -1,0 +1,23 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #302d4c;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  // 隐藏滑轮
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.download-box {
+  height: 30vw;
+  width: 60vw;
+  background-color: #fff;
+  border-radius: 15px;
+  border: #302d4c 5px solid;
+}
